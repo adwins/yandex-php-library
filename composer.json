@@ -1,11 +1,12 @@
 {
-    "name": "nixsolutions/yandex-php-library",
-    "description": "Official Yandex PHP library",
+    "name": "adwins/yandex-php-library",
+    "description": "FORK to adwins: Official Yandex PHP library",
     "keywords":["yandex","sdk"],
     "type":"library",
     "license": "MIT",
     "minimum-stability": "dev",
     "require": {
+        "composer/installers": "*",
         "guzzlehttp/guzzle": "~6.0|^7.0"
     },
     "require-dev": {
@@ -33,5 +34,9 @@
     "support": {
         "issues": "https://github.com/nixsolutions/yandex-php-library/issues",
         "wiki": "https://github.com/nixsolutions/yandex-php-library/wiki"
+    },
+    "dist": {
+        "url": "https://gitlab.com/adwins/yandex-php-library.git",
+        "type": "zip"
     }
 }
